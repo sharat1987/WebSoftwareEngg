@@ -5,21 +5,29 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="main.css">
-    
+	    
   </head>
 
   <body>
-    <div class="nav">
-      <div class="container">        
-        <ul class="pull-right">
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Log In</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
-
+	<a class="btn btn-primary" data-toggle="pill" href="#navbar">Click for more options</a>
+	<div class="tab-content">
+	<div id="navbar" class="tab-pane fade">
+		<div  class="nav">
+		  <div class="container">        
+			<ul class="pull-right">
+			  <li><a data-toggle="pill" href="#signup">Sign Up</a></li>
+			  <li><a data-toggle="pill" href="#login">Log In</a></li>
+			  <li><a data-toggle="pill" href="#contactus">Contact Us</a></li>
+			</ul>
+		  </div>
+		</div>
+	</div>
+	</div>
+	
+	
     <div class="jumbotron">
       <div class="container">
         <h1>Find a place to stay.</h1>
